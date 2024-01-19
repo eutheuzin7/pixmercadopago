@@ -1,6 +1,5 @@
-# **[@eutheuzin7](https://github.com/eutheuzin7)**
+# <3 **[@eutheuzin7](https://github.com/eutheuzin7)**
 
-# <3
 <h4 align="center">Este é um simples código que gera pix com api do mercadopago em php puro</h4>
 <h4 align="center">AJUSTE O CÓDIGO CONFORME O NECESSÁRIO EM SEU SISTEMA! 😉</h4>
 
