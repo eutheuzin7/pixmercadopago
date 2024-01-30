@@ -12,6 +12,7 @@ $im = imageCreateFromString(base64_decode($imageData));
 echo imagepng($im, "foto.png", 0);
 ?>
 ```
+<h6 align="center">Este pequeno trecho de codigo deve ser implemetado embaixo da variavel "$pix" na linha 53/54, ele ira baixar a imagem do qrcode em base64</h6>
 
 <h2 align="center"><strong>Instalação 💻</strong></h2>
 
