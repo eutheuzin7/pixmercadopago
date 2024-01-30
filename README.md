@@ -3,14 +3,6 @@
 <h4 align="center">Este é um simples código que gera pix qrcode com api do mercadopago em php puro</h4>
 <h4 align="center">AJUSTE O CÓDIGO CONFORME O NECESSÁRIO EM SEU SISTEMA! 😉</h4>
 
-<h2 align="center"><strong>Instalação 💻</strong></h2>
-
-```shell script
-apt-get update && apt-get upgrade -y
-apt-get install php
-git clone https://github.com/eutheuzin7/pixmercadopago/
-```
-
 <h2 align="center"><strong>PIX QRCODE IMG 🖼</strong></h2>
 ```shell script
 
@@ -18,7 +10,15 @@ git clone https://github.com/eutheuzin7/pixmercadopago/
 $imageData = $getPay['point_of_interaction']['transaction_data']['qr_code_base64']; 
 $im = imageCreateFromString(base64_decode($imageData));
 echo imagepng($im, "foto.png", 0);
-?>
+?>```
+
+<h2 align="center"><strong>Instalação 💻</strong></h2>
+
+```shell script
+apt-get update && apt-get upgrade -y
+apt-get install php
+git clone https://github.com/eutheuzin7/pixmercadopago/
+```
 
 <h2 align="center"><strong>Execução 📂</strong></h2>
 
