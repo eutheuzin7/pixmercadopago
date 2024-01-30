@@ -19,7 +19,6 @@ $imageData = $getPay['point_of_interaction']['transaction_data']['qr_code_base64
 $im = imageCreateFromString(base64_decode($imageData));
 echo imagepng($im, "foto.png", 0);
 ?>
-```
 
 <h2 align="center"><strong>Execução 📂</strong></h2>
 
