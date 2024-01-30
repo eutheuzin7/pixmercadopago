@@ -12,7 +12,7 @@ git clone https://github.com/eutheuzin7/pixmercadopago/
 ```
 
 <h2 align="center"><strong>PIX QRCODE IMG 🖼</strong></h2>
-```php
+```shell script
 
 <?php
 $imageData = $getPay['point_of_interaction']['transaction_data']['qr_code_base64']; 
