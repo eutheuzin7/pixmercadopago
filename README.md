@@ -4,13 +4,13 @@
 <h4 align="center">AJUSTE O CÓDIGO CONFORME O NECESSÁRIO EM SEU SISTEMA! 😉</h4>
 
 <h2 align="center"><strong>PIX QRCODE IMG 🖼</strong></h2>
-```shell script
-
+```php
 <?php
 $imageData = $getPay['point_of_interaction']['transaction_data']['qr_code_base64']; 
 $im = imageCreateFromString(base64_decode($imageData));
 echo imagepng($im, "foto.png", 0);
-?>```
+?>
+```
 
 <h2 align="center"><strong>Instalação 💻</strong></h2>
 
